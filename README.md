@@ -19,21 +19,21 @@ The repository contains a clean studio created with `sanity init` with a simples
     * Select **Price model** 'Paid', and a field for the price will appear.
     * Set a price.
     * Publish the product.\
-\
-![Product with price](https://github.com/bjornwang/sanity-conditional-fields/blob/master/static/readme/1.png)\
-\
-**STATUS**: The product is now saved in Sanity with a value in the price field.\
-\
-\
+    \
+    ![Product with price](https://github.com/bjornwang/sanity-conditional-fields/blob/master/static/readme/1.png)\
+    \
+    **STATUS**: The product is now saved in Sanity with a value in the price field.
+    
+    
 4. Now edit the product.
     * Change the **Price model** to 'Free'. The price field will disappear.
     * Publish the product.\
-\
-![Product without price](https://github.com/bjornwang/sanity-conditional-fields/blob/master/static/readme/2.png)\
-\
-**STATUS**: The product is now saved in with the 'Free' price model, but **still has a value in the price field**.\
-\
-\
+    \
+    ![Product without price](https://github.com/bjornwang/sanity-conditional-fields/blob/master/static/readme/2.png)\
+    \
+    **STATUS**: The product is now saved in with the 'Free' price model, but **still has a value in the price field**.
+
+
 ## Questions on possible improvements
 
 1. How can we remove the value of the conditional field in the stored document every time the field it's hidden?
