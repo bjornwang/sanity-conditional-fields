@@ -18,10 +18,10 @@ The repository contains a clean studio created with `sanity init` with a simples
 \
 ![Product with price](https://github.com/bjornwang/sanity-conditional-fields/blob/master/static/readme/1.png)
 
-* Set a product name.
-* Select **Price model** 'Paid', and a field for the price will appear.
-* Set a price.
-* Publish the product.\
+  * Set a product name.
+  * Select **Price model** 'Paid', and a field for the price will appear.
+  * Set a price.
+  * Publish the product.\
 \
 **STATUS**: The product is now saved in Sanity with a value in the price field.
 
@@ -29,8 +29,8 @@ The repository contains a clean studio created with `sanity init` with a simples
 \
 ![Product without price](https://github.com/bjornwang/sanity-conditional-fields/blob/master/static/readme/2.png)
 
-* Change the **Price model** to 'Free'. The price field will disappear.
-* Publish the product.\
+  * Change the **Price model** to 'Free'. The price field will disappear.
+  * Publish the product.\
 \
 **STATUS**: The product is now saved in with the 'Free' price model, but **still has a value in the price field**.
 
