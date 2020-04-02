@@ -17,7 +17,6 @@ The repository contains a clean studio created with `sanity init` with a simples
 3. Add a new document of type **Product**.\
 \
 ![Product with price](https://github.com/bjornwang/sanity-conditional-fields/blob/master/static/readme/1.png)
-
   * Set a product name.
   * Select **Price model** 'Paid', and a field for the price will appear.
   * Set a price.
@@ -28,7 +27,6 @@ The repository contains a clean studio created with `sanity init` with a simples
 4. Now edit the product.\
 \
 ![Product without price](https://github.com/bjornwang/sanity-conditional-fields/blob/master/static/readme/2.png)
-
   * Change the **Price model** to 'Free'. The price field will disappear.
   * Publish the product.\
 \
