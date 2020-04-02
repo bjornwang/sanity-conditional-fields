@@ -14,8 +14,7 @@ The repository contains a clean studio created with `sanity init` with a simples
 
 2. Run `sanity start` and open the Sanity Studio on http://localhost:3333/.
 
-3. Add a new document of type **Product**.
-
+3. Add a new document of type **Product**.\
 ![Product with price](https://github.com/bjornwang/sanity-conditional-fields/blob/master/static/readme/1.png)
 
 * Set a product name.
@@ -25,8 +24,7 @@ The repository contains a clean studio created with `sanity init` with a simples
 
 **STATUS**: The product is now saved in Sanity with a value in the price field.
 
-4. Now edit the product.
-
+4. Now edit the product.\
 ![Product without price](https://github.com/bjornwang/sanity-conditional-fields/blob/master/static/readme/2.png)
 
 * Change the **Price model** to 'Free'. The price field will disappear.
