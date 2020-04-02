@@ -1,15 +1,15 @@
 import PropTypes from "prop-types";
 import React from "react";
+import * as PathUtils from '@sanity/util/paths'
 import { FormBuilderInput, withDocument, withValuePath } from "part:@sanity/form-builder";
 
 
 /**
- * ConditionalField input component will wrap any regular input field
- * configured with 'options.condition' in the schema.
+ * ConditionalField input component will wrap any regular input field configured
+ * with `options.condition` in the schema.
  * 
- * 'option.condition' should be a function that accepts two parameters,
- * 'document' and 'focusPath', and returns true if the wrapped field
- * should be shown: condition(document, focusPath) => true/false
+ * `option.condition` should be a function that accepts two parameters, `document`
+ * and `parent`, and returns `true` if the wrapped field should be shown.
  * 
  * Inspired by the following code examples:
  *  - https://sanity-io-land.slack.com/archives/C9Z7RC3V1/p1583362492389300?thread_ts=1583335061.341000&cid=C9Z7RC3V1
@@ -50,20 +50,9 @@ class ConditionalField extends React.Component {
     // Extract type without 'inputComponent' (self reference) to avoid infinite loop
     const { inputComponent, ...type } = this.props.type;
 
-    // Path to parent object within document as an array of property identifiers
+    // Find the active field's parent object in the document  
     const parentPath = getValuePath().slice(0, -1); // <- Remove current field from path
-
-    // Drill into the document to find the active field's parent object,
-    // e.g. the document root, an inlined object in an array or similer
-    const parent = parentPath.reduce(
-      (obj, prop) => {
-        return (prop && prop._key) ?
-          obj.find(e => e._key == prop._key) // <- Array element, look up using '_key'
-        :
-          obj[prop] // <- Normal property
-      },
-      document
-    )
+    const parent = PathUtils.get(document, parentPath);
 
     // Condition to evaluate if component should be shown, defaults to true
     const defaultCondition = () => false;
