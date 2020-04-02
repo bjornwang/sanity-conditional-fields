@@ -14,13 +14,13 @@ The repository contains a clean studio created with `sanity init` with a simples
 
 2. Run `sanity start` and open the Sanity Studio on http://localhost:3333/.
 
-3. Add a new document of type **Product**.\
+3. Add a new document of type **Product**.
+  * Set a product name.
+  * Select **Price model** 'Paid', and a field for the price will appear.
+  * Set a price.
+  * Publish the product.\
 \
-![Product with price](https://github.com/bjornwang/sanity-conditional-fields/blob/master/static/readme/1.png)
-* Set a product name.
-* Select **Price model** 'Paid', and a field for the price will appear.
-* Set a price.
-* Publish the product.\
+![Product with price](https://github.com/bjornwang/sanity-conditional-fields/blob/master/static/readme/1.png)\
 \
 **STATUS**: The product is now saved in Sanity with a value in the price field.
 
