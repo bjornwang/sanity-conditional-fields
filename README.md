@@ -4,13 +4,16 @@ The repository contains a clean studio created with `sanity init` with a simples
 
 ## Usage instructions
 
-1. Clone the code and point it to your own Sanity project and data set by modifying `sanity.json:
-```
-  "api": {
-    "projectId": "iitl24hy",
-    "dataset": "example"
-  }
-```
+1. Set iup the demo:
+    * Clone this repository.
+    * Run `npm install`.
+    * Update `sanity.json` to point to your own Sanity project and data: 
+    ```
+      "api": {
+        "projectId": "iitl24hy",
+        "dataset": "example"
+      }
+    ```
 
 2. Run `sanity start` and open the Sanity Studio on http://localhost:3333/.
 
