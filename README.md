@@ -1,6 +1,6 @@
 # Conditional Fields in Sanity Studio
 
-The repository contains a clean studio created with `sanity init` with a simplest possible schema to showcase conditional fields.
+Clean studio created with `sanity init` with a simplest possible schema to showcase conditional fields.
 
 ## Usage instructions
 
