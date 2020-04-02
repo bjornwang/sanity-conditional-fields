@@ -27,7 +27,7 @@ The repository contains a clean studio created with `sanity init` with a simples
     \
     **STATUS**: The product is now saved in Sanity with a value in the price field.\
     ¨\
-    \
+
 
 4. Now edit the product.
     * Change the **Price model** to 'Free'. The price field will disappear.
@@ -37,7 +37,7 @@ The repository contains a clean studio created with `sanity init` with a simples
     \
     **STATUS**: The product is now saved in with the 'Free' price model, but **still has a value in the price field**.\
     ¨\
-    \
+
 
 ## Questions on possible improvements
 
