@@ -22,7 +22,7 @@ The repository contains a clean studio created with `sanity init` with a simples
 \
 ![Product with price](https://github.com/bjornwang/sanity-conditional-fields/blob/master/static/readme/1.png)\
 \
-**STATUS**: The product is now saved in Sanity with a value in the price field.
+**STATUS**: The product is now saved in Sanity with a value in the price field.\
 
 
 4. Now edit the product.
@@ -31,7 +31,7 @@ The repository contains a clean studio created with `sanity init` with a simples
 \
 ![Product without price](https://github.com/bjornwang/sanity-conditional-fields/blob/master/static/readme/2.png)\
 \
-**STATUS**: The product is now saved in with the 'Free' price model, but **still has a value in the price field**.
+**STATUS**: The product is now saved in with the 'Free' price model, but **still has a value in the price field**.\
 
 
 ## Questions on possible improvements
