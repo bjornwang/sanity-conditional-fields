@@ -13,4 +13,4 @@ The repository contains a clean studio created with `sanity init` with a simples
   }
 ```
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://github.com/bjornwang/sanity-conditional-fields/blob/master/static/readme/first.png)
