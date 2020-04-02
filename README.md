@@ -13,4 +13,8 @@ The repository contains a clean studio created with `sanity init` with a simples
   }
 ```
 
-![alt text](https://github.com/bjornwang/sanity-conditional-fields/blob/master/static/readme/first.png)
+![Product with price](https://github.com/bjornwang/sanity-conditional-fields/blob/master/static/readme/1.png)
+
+
+![Product without price](https://github.com/bjornwang/sanity-conditional-fields/blob/master/static/readme/2.png)
+
