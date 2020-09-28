@@ -4,7 +4,7 @@ Clean studio created with `sanity init` with a simplest possible schema to showc
 
 ## Usage instructions
 
-1. Set iup the demo:
+1. Prepare the demo:
     * Clone this repository.
     * Run `npm install`.
     * Update `sanity.json` to point to your own Sanity project and data: 
@@ -17,7 +17,8 @@ Clean studio created with `sanity init` with a simplest possible schema to showc
 
 2. Run `sanity start` and open the Sanity Studio on http://localhost:3333/.
 
-3. Add a new document of type **Product**.
+3. Try out the conditional field:
+    * Add a new document of type **Product** from the Sanity Studio.
     * Set a product name.
     * Select **Price model** 'Paid', and a field for the price will appear.
     * Set a price.
@@ -25,7 +26,6 @@ Clean studio created with `sanity init` with a simplest possible schema to showc
     \
     ![Product with price](https://github.com/bjornwang/sanity-conditional-fields/blob/master/static/readme/1.png)\
     \
-    **STATUS**: The product is now saved in Sanity with a value in the price field.
 <br><br>
 
 4. Now edit the product.
@@ -34,7 +34,7 @@ Clean studio created with `sanity init` with a simplest possible schema to showc
     \
     ![Product without price](https://github.com/bjornwang/sanity-conditional-fields/blob/master/static/readme/2.png)\
     \
-    **STATUS**: The product is now saved in with the 'Free' price model, but **still has a value in the price field**.
+    **NOTE**: The product is now saved in with the 'Free' price model, but **still has a value in the price field**. The field is only hidden.
 <br><br>
 
 ## Future improvement points
