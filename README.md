@@ -37,9 +37,9 @@ Clean studio created with `sanity init` with a simplest possible schema to showc
     **STATUS**: The product is now saved in with the 'Free' price model, but **still has a value in the price field**.
 <br><br>
 
-## Questions on possible improvements
+## Future improvement points
 
-1. How can we remove the value of the conditional field in the stored document every time the field it's hidden?
+1. Can we remove the value of the conditional field in the stored document every time the field it's hidden?
 In other words, in our example, when a 'Paid' product is made 'Free' so that the price field becomes hidden, how can we also unset the price field in the stored document in Sanity.
 
 2. Can we avoid having to specify `inputComponent: ConditionalField` on every single, conditional field, and instead implement an **input resolver**. This would be a much more elegent solution. An input resolver could simply check for the presence of `options.condition` in the field definition, like this:
